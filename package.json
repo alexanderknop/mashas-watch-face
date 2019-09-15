@@ -1,0 +1,58 @@
+{
+    "author": "aaknop@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "mashaknopwatchfacee",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "MashaKnopWatchfaceE",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS",
+            "RATE"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/mist",
+                    "name": "WEATHER_MIST",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sunny",
+                    "name": "WEATHER_SUNNY",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/clouds",
+                    "name": "WEATHER_CLOUDS",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/rain",
+                    "name": "WEATHER_RAIN",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "20513872-0e06-4d88-9f68-166eb6206435",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
